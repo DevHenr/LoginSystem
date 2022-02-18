@@ -1,518 +1,343 @@
-
-
 body {
-  
   background-size: auto 140vh; 
   background-image: url("FundoX.jpg");
   font-family: Arial;
- 
 }
-
-.T{
-	
+.T	{
 	background-size: auto 400vh; 
 	background-image: url("FundoX.jpg");
 }
 
-
-
-
 @media screen and (max-width: 425px) {
-           body {
-           font-size: 67%;
-		   text-align: center;
-		 
-		   
-          }
-		  .Home{
-			   white-space: nowrap;
-			font-size: 50%;
-		  }
-		  .Contatos{
-			  white-space: nowrap;
-		  }
-		  
-		  
-		  	  
+    body {
+		font-size: 67%;
+		text-align: center;
+    }
+
+    .Home {
+		white-space: nowrap;
+		font-size: 50%;
+	}
+
+	.Contatos {
+		white-space: nowrap;
+	}
+			  	  
 	img.Logo { width: 195px; left:30%; top:27%; }
 	
-	
-	
 	.selecao{
-			text-align: center;
-			white-space: nowrap;
-			
-		  }
+		text-align: center;
+		white-space: nowrap;
+    }
 		  
-		  div.Divicon{
-			
-			  left: 53%;
-		  }
+    div.Divicon {
+		left: 53%;
+	}
+	
+	.Conteudo {
+		font-size: 195%;
+    }
 		  
+	div.Logout {
+		transform: translate(-30%, 40%);
+	}
 		  
-		  .Conteudo{
-			  
-			font-size: 195%;
-			  
-		  }
-		  
-		  div.Logout{
-			  
-			 
-			
-			transform: translate(-30%, 40%);
-		  }
-		  
-		  div.selecao{
-			  
-     left: 28%;
-			 
-			  
-		  }
-		  
-		   p.Log{
-			 
-			  font-size: 220%;
-			  
-		  }
-		  
-		  
-		  div.Divicon{
-			  
-			  
-			   left: 43%
-		  }
-		  
-		 
+	div.selecao {		  
+   		left: 28%;		 
+	}
+
+	p.Log {
+		font-size: 220%;
+	}
+	
+	div.Divicon { 		  
+		left: 43%
+	}	  	 
 }
   
 @media screen and ( min-width: 320px) and (max-width: 375px ) {
- 
-	  
-	  body {
-           font-size: 45%;
-		   text-align: center;
-}
+	body {
+		font-size: 45%;
+		text-align: center;
+	}	
 
-.Home{
+	.Home {
+		white-space: nowrap;
+		font-size: 34%;
+	}
 
-			   white-space: nowrap;
-			font-size: 34%;
-		  }
-img.Logo { width: 155px; left:30%; top:32%; }
+	img.Logo { width: 155px; left:30%; top:32%; }
 
- 
-		   p.Log{
-			 
-			  font-size: 180%;
-
-			 
-		  }
+	p.Log { 
+		font-size: 180%;
+	}
 		 
+	.site-title-contatos { 
+		font-size: 67%;
+		top: 33%;
+	}
+		
+	div.Contatos {
+		font-size: 15%;
+		top: 48%;  
+	}
 		  
-		  .site-title-contatos{
-			  
-			  font-size: 67%;
-			  top: 33%;
-		  }
-		  
-		  
-		   div.Contatos{
-			  
-			  font-size: 15%;
-			  top: 48%;
-			  
-		  }
-		  
-		  h1.site-title{
-			  
-			   font-size: 300%;
-			  top: 38%;
-		  }
-		  
-		  
-		  div.Logout{
+	h1.site-title {
+		font-size: 300%;
+		top: 38%;
+	}
+
+	div.Logout {	 	
+		transform: translate(-34%, 15%);
+	}
+
+	div.Divicon {    
+	top: 61%;
+	}
+}
 			 
-			
-		 transform: translate(-34%, 15%);
-			
-		  }
-		  
-		   div.Divicon{
-			  
-			  
-			  top: 61%;
-		  }
-
-  }
-			 
-			  
-
-
-
 @media screen and ( max-width: 375px ) {
+	body {
+		font-size: 45%;
+		text-align: center;
+	}
 
-  
-	  body {
-           font-size: 45%;
-		   text-align: center;
+	body.Home {
+		text-align: center;
+		white-space: nowrap;
+		font-size: 46%;
+    }
+
+	img.Logo { width: 135px; left:35%; top:33%; }
+
+    div.Logout {
+		padding-top: 54px;	
+	}	
+
+	p.Log { 
+    	font-size: 220%;	
+	}
+	
+    div.Divicon {  
+		left: 43%
+	}
+		  
+	h1.site-title-contatos { 
+		font-size: 575%;		  
+	}
+		  
+	div.Contatos {	  
+		font-size: 115%;		  
+	}
+			  
+    div.selecao {
+		font-size: 475%;
+		left: 20%;
+	}
 }
 
-body.Home{
-	text-align: center;
-			   white-space: nowrap;
-			font-size: 46%;
-		  }
-img.Logo { width: 135px; left:35%; top:33%; }
 
- div.Logout{
-			 
-			 padding-top: 54px;
-		
-		  }
-		  
-		  p.Log{
-			 
-			  font-size: 220%;
-			
-		  }
-		  
-		  div.Divicon{
-			  
-			  
-			   left: 43%
-		  }
-		  
-		  h1.site-title-contatos{
-			  
-			   font-size: 575%;
-			  
-		  }
-		  
-		  div.Contatos{
-			  
-			  font-size: 115%;
-			  
-		  }
-		  
-		  
-		   div.selecao{
-			  
-font-size: 475%;
-			 left: 20%;
-			  
-		  }
-
-  }
-
-
- @media screen and (min-width: 480px) {
-            body {
-            font-size: 85%;
-			text-align: center;
-          }
-		  
-		  
- }
-
-
-
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 85%;
+		text-align: center;
+    }	  
+}
 
 .navbar {
-  overflow: hidden;
-  background-color: #DC143C;
-  font-family: Arial;
-   
-  
-   
-   
-   
-  
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	overflow: hidden;
+	background-color: #DC143C;
+	font-family: Arial;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-
 .Contatos {
-
-text-align: center;
-top: 40%;
-
-left: 50%;
-
-transform: translate(-50%, -50%);
-
- position: Absolute;
- 
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: Absolute;
 }
 
 div.Logout{
 	left:47%;
 	top:15%;
-  position: absolute; 
+	position: absolute; 
 }
-
-
 
 .navbar a {
-  float: left;
-  font-size: 26px;
-  color: White;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	float: left;
+	font-size: 26px;
+	color: White;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
-
-
-
-
-
 .dropdown {
-  float: left;
-  overflow: hidden;
-  
+	float: left;
+	overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  font-size: 26px; 
-
-  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+	font-size: 26px; 
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  	background-color: red;
 }
 
- 
- 
- .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #F9F9F9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #F9F9F9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
-
 
 .dropdown-content a {
-  float: none;
-  color: #007FFF;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  
-  
-  
-  font-style: bold;
-   font-size: 16px;
+	float: none;
+	color: #007FFF;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-style: bold;
+	font-size: 16px;
 }
 
-
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  	display: block;
 }
 
-
- 
- 
 .site-title {
-  color: Black;
-  text-align: center;
-  
-  
-  
-  left: 50%;
-  transform: translate(-50%, -30%);
+	color: Black;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -30%);
   
 }
-
 
 .site-title-contatos {
-  color: Black;
-  text-align: center;
-  left: 50%;
-  font-family: Arial;
-  transform: translate(-50%, -50%);
+	color: Black;
+	text-align: center;
+	left: 50%;
+	font-family: Arial;
+	transform: translate(-50%, -50%);
 }
 
-
-
-.Sobre{
-	
- color: Black;
-  text-align: center;
-  left: 50%;
-  font-family: Arial;
-  transform: translate(-50%, -50%);
-  
-  font-style: italic;
- font-size: 350%;
-font-family: Monoespace;
-position: absolute;
-  
-  
-  
+.Sobre {
+	color: Black;
+	text-align: center;
+	left: 50%;
+	font-family: Arial;
+	transform: translate(-50%, -50%);
+	font-style: italic;
+	font-size: 350%;
+	font-family: Monoespace;
+	position: absolute;
 }
 
-.DivSobre{
-	
-	
+.DivSobre {
 	padding-top: 120px;
-	
 }
 
-
-
-
-
-.ContactDiv{
-	
-	
-	
+.ContactDiv { 
 	padding-top: 40px;
-	
-	
-	
 }
 
-.CLS{
+.CLS {
 	padding-top: 95px;
-	
 }
-
-
-
-
 
 .site-title-contatos {
- font-style: italic;
- font-size: 400%;
-font-family: Monoespace;
-position: absolute;
- padding-top: 30px;
+	font-style: italic;
+	font-size: 400%;
+	font-family: Monoespace;
+	position: absolute;
+	padding-top: 30px;
 }
-
-
 
 .Contatos {
- padding-top: 150px;
- 
+ 	padding-top: 150px; 
 }
-
-
-
 
 .site-subtitle{
 	color:Black;
 	text-align: center;
-	 position: Absolute;
-	 top: 65%;
- padding-top: 55px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	position: Absolute;
+	top: 65%;
+ 	padding-top: 55px;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 .site-title {
- font-style: italic;
- font-size: 400%;
-font-family: Monoespace;
-position: absolute;
-
-
-
-
-
+ 	font-style: italic;
+ 	font-size: 400%;
+	font-family: Monoespace;
+	position: absolute;
 }
-
 
 .site-subtitle {
-
- font-family: Monoespace;
-font-size: 400%;
-position: absolute;
-
-
-
-
-
+ 	font-family: Monoespace;
+	font-size: 400%;
+	position: absolute;
 }
-
 
 .active {
-  background-color: black;
+    background-color: black;
 }
-
-
-
 
 .Logo {
 	left: 40%;
-	
     padding-top: 83px;
-  
-  position: absolute;
-  width: 20%;
-
-  
+ 	position: absolute;
+  	width: 20%;
 }
 
-.icon{
-	
- font-size: 99px;
- color: #FF007F;
+.icon {
+ 	font-size: 99px;
+ 	color: #FF007F;
 }
 
-.Divicon{
+.Divicon {
 	position: absolute;
 	font-family: Monoespace;
 	top: 58%;
 	padding-top: 54px;
-	
-	
 	left: 48%;
 }
 
-.selecao{
+.selecao {
 	font-family: Monoespace;
 	font-size: 300%;
 	left: 40%;
-		top: 79%;
-		position: absolute;
-		padding-top: 22px;
-		
-		
-		
-		color:	#111111;
+	top: 79%;
+	position: absolute;
+	padding-top: 22px;
+	color:	#111111;
 }
 
-.Conteudo{
-	
+.Conteudo {
 	padding-top: 83px;
 }
 
-div.Logout{
-	
-	 color:#09ACDB;
+div.Logout {
+	color:#09ACDB;
 	left: 42%;
 	font-size: 200%;
-	
-	
-
 }
-
-
-
